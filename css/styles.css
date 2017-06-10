@@ -90,6 +90,8 @@ width:100%;
 
 div.content li .datacontent td{
 padding:10px;
+width:50%;
+box-sizing: border-box;
 }
 
 div.content li div.heading::after{
