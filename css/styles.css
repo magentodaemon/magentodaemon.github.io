@@ -1,0 +1,102 @@
+body{
+margin:0px;
+}
+
+header{
+position: fixed;
+background: #bbbbbb;
+height: 65px;
+width: 100%;
+padding: 0px;
+margin: 0%;
+top: 0;
+left: 0;
+border-bottom:1px solid #555;
+
+}
+
+
+
+header .left-header{
+width: 20%;
+height: 65px;
+background: #eee;
+float: left;
+}
+
+header .left-header h1{
+margin: 15px auto;
+text-align: center;
+color: #aaa;
+font-style: italic;
+font-stretch: narrower;
+text-shadow: 1px 1px #666;
+font-size:34px;
+cursor:pointer;
+}
+
+header .left-header h1:hover,header .left-header h1:active,header .left-header h1:focus{
+color: #999 !important;
+
+}
+
+header .right-header{
+float: right;
+width: 80%;
+padding: 0px;
+box-sizing: border-box;
+}
+
+header .right-header h1{
+margin: 23px;
+font-size: 18px;
+}
+
+
+div.content{
+width:100%;
+margin:65px 0;
+}
+
+div.content ul{
+width:100%;
+padding:0px;
+}
+
+
+div.content li{
+list-style: none;
+width: 100%;
+background: #eaeaea;
+padding: 0px;
+border-bottom: 2px solid #eee;
+color: #5d2727;
+}
+
+div.content li div.heading{
+padding:5px;
+cursor:pointer;
+font-size:36px;
+}
+
+div.content li .datacontent{
+background: #f7f7f7;
+color: #555;
+}
+
+div.content li .datacontent table{
+width:100%;
+}
+
+div.content li .datacontent td{
+padding:10px;
+}
+
+div.content li div.heading::after{
+content:"\2193";
+}​
+
+
+
+
+
